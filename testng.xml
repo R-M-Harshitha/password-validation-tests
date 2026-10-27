@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Password Validation Suite">
+  <test name="Password Strength and Confirm Password Tests">
+    <classes>
+      <class name="com.bitm.tests.PasswordValidationTest"/>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Password Validation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Password Strength and Confirm Password Tests(failed)">
+    <classes>
+      <class name="com.bitm.tests.PasswordValidationTest">
+        <methods>
+          <include name="tc16_liveMismatchWhileTyping"/>
+          <include name="tc10_matchingPasswordsSucceed"/>
+          <include name="tc02_passwordStrengthIndicator"/>
+          <include name="tearDown"/>
+          <include name="tc17_emptyUsernameShowsError"/>
+          <include name="tc11_mismatchShowsError"/>
+          <include name="tc12_emptyConfirmShowsError"/>
+          <include name="tc13_confirmIsCaseSensitive"/>
+          <include name="tc15_weakPasswordBlocked"/>
+          <include name="tc14_spacesNotAllowed"/>
+          <include name="setUp"/>
+          <include name="tc01_emptyPasswordShowsError"/>
+        </methods>
+      </class> <!-- com.bitm.tests.PasswordValidationTest -->
+    </classes>
+  </test> <!-- Password Strength and Confirm Password Tests(failed) -->
+</suite> <!-- Failed suite [Password Validation Suite] -->

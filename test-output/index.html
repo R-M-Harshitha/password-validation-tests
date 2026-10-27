@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Password_Validation_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Password Validation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Password_Validation_Suite" class="navigator-link ">
+                    <span>C:\Users\R M harshitha\Downloads\PasswordValidationProject\PasswordValidationProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Password_Validation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Password_Validation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Password_Validation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Password_Validation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Password_Validation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Password_Validation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Password_Validation_Suite" class="hide-methods passed suite-Password_Validation_Suite"> (hide)</a> <!-- hide-methods passed suite-Password_Validation_Suite -->
+                      <a href="#" panel-name="suite-Password_Validation_Suite" class="show-methods passed suite-Password_Validation_Suite"> (show)</a> <!-- show-methods passed suite-Password_Validation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Password_Validation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc01_emptyPasswordShowsError">tc01_emptyPasswordShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(abc, Weak)">tc02_passwordStrengthIndicator(abc, Weak)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(12345678, Weak)">tc02_passwordStrengthIndicator(12345678, Weak)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(Abc@123, Weak)">tc02_passwordStrengthIndicator(Abc@123, Weak)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(Abcdefg1, Medium)">tc02_passwordStrengthIndicator(Abcdefg1, Medium)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(abcd1234, Medium)">tc02_passwordStrengthIndicator(abcd1234, Medium)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(Hello@123, Strong)">tc02_passwordStrengthIndicator(Hello@123, Strong)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(Abc@1234, Strong)">tc02_passwordStrengthIndicator(Abc@1234, Strong)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc02_passwordStrengthIndicator(abcdefgh, Weak)">tc02_passwordStrengthIndicator(abcdefgh, Weak)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc10_matchingPasswordsSucceed">tc10_matchingPasswordsSucceed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc11_mismatchShowsError">tc11_mismatchShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc12_emptyConfirmShowsError">tc12_emptyConfirmShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc13_confirmIsCaseSensitive">tc13_confirmIsCaseSensitive</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc14_spacesNotAllowed">tc14_spacesNotAllowed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc15_weakPasswordBlocked">tc15_weakPasswordBlocked</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc16_liveMismatchWhileTyping">tc16_liveMismatchWhileTyping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Password_Validation_Suite" title="com.bitm.tests.PasswordValidationTest" class="method navigator-link" hash-for-method="tc17_emptyUsernameShowsError">tc17_emptyUsernameShowsError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Password_Validation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Password_Validation_Suite" class="panel Password_Validation_Suite">
+          <div class="suite-Password_Validation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bitm.tests.PasswordValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc01_emptyPasswordShowsError">
+                  </a> <!-- tc01_emptyPasswordShowsError -->
+                  <span class="method-name">tc01_emptyPasswordShowsError</span>
+                  <em>
+(TC01 - Empty password shows required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(abc, Weak)">
+                  </a> <!-- tc02_passwordStrengthIndicator(abc, Weak) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(abc,Weak)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(12345678, Weak)">
+                  </a> <!-- tc02_passwordStrengthIndicator(12345678, Weak) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(12345678,Weak)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(Abc@123, Weak)">
+                  </a> <!-- tc02_passwordStrengthIndicator(Abc@123, Weak) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(Abc@123,Weak)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(Abcdefg1, Medium)">
+                  </a> <!-- tc02_passwordStrengthIndicator(Abcdefg1, Medium) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(Abcdefg1,Medium)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(abcd1234, Medium)">
+                  </a> <!-- tc02_passwordStrengthIndicator(abcd1234, Medium) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(abcd1234,Medium)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(Hello@123, Strong)">
+                  </a> <!-- tc02_passwordStrengthIndicator(Hello@123, Strong) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(Hello@123,Strong)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(Abc@1234, Strong)">
+                  </a> <!-- tc02_passwordStrengthIndicator(Abc@1234, Strong) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(Abc@1234,Strong)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc02_passwordStrengthIndicator(abcdefgh, Weak)">
+                  </a> <!-- tc02_passwordStrengthIndicator(abcdefgh, Weak) -->
+                  <span class="method-name">tc02_passwordStrengthIndicator</span>
+                  <span class="parameters">(abcdefgh,Weak)</span>
+                  <em>
+(TC02-TC09 - Strength indicator for different passwords)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc10_matchingPasswordsSucceed">
+                  </a> <!-- tc10_matchingPasswordsSucceed -->
+                  <span class="method-name">tc10_matchingPasswordsSucceed</span>
+                  <em>
+(TC10 - Strong password with matching confirm registers successfully)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc11_mismatchShowsError">
+                  </a> <!-- tc11_mismatchShowsError -->
+                  <span class="method-name">tc11_mismatchShowsError</span>
+                  <em>
+(TC11 - Mismatching passwords show error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc12_emptyConfirmShowsError">
+                  </a> <!-- tc12_emptyConfirmShowsError -->
+                  <span class="method-name">tc12_emptyConfirmShowsError</span>
+                  <em>
+(TC12 - Empty confirm password shows required error)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc13_confirmIsCaseSensitive">
+                  </a> <!-- tc13_confirmIsCaseSensitive -->
+                  <span class="method-name">tc13_confirmIsCaseSensitive</span>
+                  <em>
+(TC13 - Confirm password is case sensitive)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc14_spacesNotAllowed">
+                  </a> <!-- tc14_spacesNotAllowed -->
+                  <span class="method-name">tc14_spacesNotAllowed</span>
+                  <em>
+(TC14 - Password with spaces is rejected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc15_weakPasswordBlocked">
+                  </a> <!-- tc15_weakPasswordBlocked -->
+                  <span class="method-name">tc15_weakPasswordBlocked</span>
+                  <em>
+(TC15 - Weak password is blocked even when both fields match)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc16_liveMismatchWhileTyping">
+                  </a> <!-- tc16_liveMismatchWhileTyping -->
+                  <span class="method-name">tc16_liveMismatchWhileTyping</span>
+                  <em>
+(TC16 - Mismatch error appears live while typing confirm password)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tc17_emptyUsernameShowsError">
+                  </a> <!-- tc17_emptyUsernameShowsError -->
+                  <span class="method-name">tc17_emptyUsernameShowsError</span>
+                  <em>
+(TC17 - Empty username is rejected)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Password_Validation_Suite-class-passed -->
+        </div> <!-- panel Password_Validation_Suite -->
+        <div panel-name="test-xml-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\R M harshitha\Downloads\PasswordValidationProject\PasswordValidationProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Password Validation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Password Strength and Confirm Password Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bitm.tests.PasswordValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Password Strength and Confirm Password Tests --&gt;
+&lt;/suite&gt; &lt;!-- Password Validation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Password Validation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Password Strength and Confirm Password Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Password Validation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Password Validation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Password_Validation_Suite');
+function tableData_Password_Validation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'tc11_mismatchShowsError')
+data.setCell(0, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(0, 3, 1093);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'tc12_emptyConfirmShowsError')
+data.setCell(1, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(1, 3, 748);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'tc14_spacesNotAllowed')
+data.setCell(2, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(2, 3, 711);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tc15_weakPasswordBlocked')
+data.setCell(3, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(3, 3, 708);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'tc01_emptyPasswordShowsError')
+data.setCell(4, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(4, 3, 679);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'tc17_emptyUsernameShowsError')
+data.setCell(5, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(5, 3, 647);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'tc10_matchingPasswordsSucceed')
+data.setCell(6, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(6, 3, 587);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tc16_liveMismatchWhileTyping')
+data.setCell(7, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(7, 3, 554);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'tc13_confirmIsCaseSensitive')
+data.setCell(8, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(8, 3, 520);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(9, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(9, 3, 298);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(10, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(10, 3, 296);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(11, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(11, 3, 270);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(12, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(12, 3, 270);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(13, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(13, 3, 265);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(14, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(14, 3, 254);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(15, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(15, 3, 240);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'tc02_passwordStrengthIndicator')
+data.setCell(16, 2, 'com.bitm.tests.PasswordValidationTest')
+data.setCell(16, 3, 201);
+window.suiteTableData['Password_Validation_Suite']= { tableData: data, tableDiv: 'times-div-Password_Validation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
+              <div id="times-div-Password_Validation_Suite">
+              </div> <!-- times-div-Password_Validation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Password Validation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Password_Validation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bitm.tests.PasswordValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc01_emptyPasswordShowsError</span>
+                <span class="method-start">13458 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">14141 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">14422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(abc, Weak)</span>
+                <span class="method-start">16660 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16935 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17301 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(abcdefgh, Weak)</span>
+                <span class="method-start">19396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">19697 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">19957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(12345678, Weak)</span>
+                <span class="method-start">21974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">22177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">22412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(Abc@123, Weak)</span>
+                <span class="method-start">24149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">24425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">24687 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(abcd1234, Medium)</span>
+                <span class="method-start">26497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26797 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(Abcdefg1, Medium)</span>
+                <span class="method-start">29292 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29559 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">29846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(Abc@1234, Strong)</span>
+                <span class="method-start">31721 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31978 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">32290 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc02_passwordStrengthIndicator(Hello@123, Strong)</span>
+                <span class="method-start">34437 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">34678 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc10_matchingPasswordsSucceed</span>
+                <span class="method-start">36740 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">37329 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc11_mismatchShowsError</span>
+                <span class="method-start">39513 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40609 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">40943 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc12_emptyConfirmShowsError</span>
+                <span class="method-start">42783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">43533 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc13_confirmIsCaseSensitive</span>
+                <span class="method-start">45680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">46201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46524 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc14_spacesNotAllowed</span>
+                <span class="method-start">48982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">49694 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc15_weakPasswordBlocked</span>
+                <span class="method-start">52234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">52943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53286 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc16_liveMismatchWhileTyping</span>
+                <span class="method-start">55261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">55817 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56152 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tc17_emptyUsernameShowsError</span>
+                <span class="method-start">58058 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">58707 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
